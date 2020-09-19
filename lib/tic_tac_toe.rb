@@ -32,7 +32,7 @@ def move(index, current_player)
   @board[index] = current_player
 end
 
-def position_taken(index)
+def position_taken?(index)
   if (@board[index] == " ") || (@board[index] == "") || (@board[index] == nil)
   return false
 else
