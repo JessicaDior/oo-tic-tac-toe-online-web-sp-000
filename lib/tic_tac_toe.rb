@@ -5,7 +5,7 @@ def initialize
   @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 end
 
-def WIN_COMBINATIONS
+def Win_combinations
 [
 [0, 1, 2],
 [3, 4, 5], #Middle row
