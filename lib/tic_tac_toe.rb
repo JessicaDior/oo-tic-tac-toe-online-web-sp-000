@@ -89,4 +89,12 @@ end
 return false
 end
 
+def full?
+  if @board.any? {|index| index == nil || index == " "}
+  return false
+else
+return true
+end
+end
+
 end
