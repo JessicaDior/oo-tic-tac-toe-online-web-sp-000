@@ -97,4 +97,12 @@ return true
 end
 end
 
+def draw?
+  if !won? && full?
+    return true
+  else won?
+    return false
+  end
+end
+
 end
