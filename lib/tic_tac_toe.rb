@@ -13,7 +13,6 @@ WIN_COMBINATIONS = [
 
 def initialize
   @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  play
 end
 
 
